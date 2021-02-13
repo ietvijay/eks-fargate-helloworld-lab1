@@ -8,9 +8,9 @@ A. Bulild and Upload a hello-world app docker image to Docker Hub repo.
     > docker images
 
 4. Tag your image:
-    > docker tag <Image ID> <yourhubusername>/<app name>:<version>
+    "> docker tag <Image ID> <yourhubusername>/<app name>:<version>"
 5. Push the image to Docker Hub:
-    > dokcer push yourhubusername/<app name>:<version>
+    "> docker push yourhubusername/<app name>:<version>"
 
 
 B. Lets create a Kubernetes Cluster in AWS
