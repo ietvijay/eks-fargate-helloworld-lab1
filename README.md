@@ -1,4 +1,4 @@
-A. Bulild and Upload a hello-worl app docker image to Docker Hub repo.
+A. Bulild and Upload a hello-world app docker image to Docker Hub repo.
 
 1. Build the image:
     > docker build -t hello-world-web:v1 .
