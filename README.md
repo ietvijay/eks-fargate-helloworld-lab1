@@ -8,9 +8,9 @@ A. Bulild and Upload a hello-world app docker image to Docker Hub repo.
     > docker images
 
 4. Tag your image:
-    "> docker tag <Image ID> <yourhubusername>/<app name>:<version>"
+    > docker tag <Image ID> <yourhubusername>/<app name>:<version>
 5. Push the image to Docker Hub:
-    "> docker push yourhubusername/<app name>:<version>"
+    > docker push yourhubusername/<app name>:<version>
 
 
 B. Lets create a Kubernetes Cluster in AWS
@@ -21,10 +21,10 @@ B. Lets create a Kubernetes Cluster in AWS
 2. Create cluster using eksctl:
     > eksctl create cluster --name eks-lab1-cluster --region us-east-1 --fargate
 3. Create Pod yml
-    > kubectl.exe apply -f .\pod.yml
+    > kubectl apply -f .\pod.yml
 4. Check pods
     > Kubectl get pods --watch
 5. Describe pod created:
-    > kubectl.exe  describe pod my-app
+    > kubectl  describe pod my-app
 6. Run to exec into the container.
     > kubectl exec -i -t my-app --container web-app -- /bin/sh
