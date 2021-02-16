@@ -8,7 +8,7 @@ A. Bulild and Upload a hello-world app docker image to Docker Hub repo.
     > docker images
 
 4. Tag your image:
-    > docker tag <Image ID> <yourhubusername>/<app name>:<version>
+    > docker tag  ImageID yourhubusername/appname:version
 5. Push the image to Docker Hub:
     > docker push yourhubusername/<app name>:<version>
 
